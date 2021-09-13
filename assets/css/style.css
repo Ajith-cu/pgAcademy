@@ -600,9 +600,10 @@ p {
 ===========================*/
 /*===== NAVBAR EIGHT =====*/
 .navbar-area {
-  background: -webkit-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
+  background-color: #fff;
+  /* background: -webkit-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
   background: -o-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
-  background: linear-gradient(to right, #43cae9 0%, #38f9d7 100%);
+  background: linear-gradient(to right, #43cae9 0%, #38f9d7 100%); */
   padding: 10px 0;
   position: absolute;
   top: 0;
@@ -692,7 +693,7 @@ p {
           line-height: 24px;
           font-weight: 700;
           padding: 11px 16px;
-          color: #fff;
+          color: -webkit-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
           text-transform: uppercase;
           position: relative;
           border-radius: 5px;
@@ -719,7 +720,7 @@ p {
             content: '';
             width: 32px;
             height: 4px;
-            background-color: #fff;
+            background-color: #43cae9;
             left: 50%;
             bottom: 0;
             -webkit-transition: all 0.3s ease-out 0s;
