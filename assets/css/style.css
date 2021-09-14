@@ -1329,10 +1329,10 @@ p {
         font-size: 16px; } }
 
 .single-about .about-icon img {
-  width: 120px; }
+  width: 80px; }
   @media (max-width: 767px) {
     .single-about .about-icon img {
-      width: 100px; } }
+      width: 60px; } }
 .single-about .about-content {
   padding-left: 30px; }
   @media (max-width: 767px) {
